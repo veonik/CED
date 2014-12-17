@@ -4,13 +4,13 @@ Servo bottom;
 int bottomPos = 0;
 int bottomMin = 70;
 int bottomMax = 120;
-int bottomSpeed = 1;
+int bottomSpeed = 2;
 
 Servo middle;
 int middlePos = 0;
 int middleMin = 100;
 int middleMax = 180;
-int middleSpeed = 1;
+int middleSpeed = 4;
 
 Servo top;
 int topPos = 0;
@@ -52,5 +52,5 @@ void loop()
   middlePos += middleSpeed;
   topPos += topSpeed;
 
-  delay(150);
+  delay(50);
 } 
